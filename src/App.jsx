@@ -17,9 +17,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex justify-between items-center">
         {/* Logo Area */}
         <div className={`transition-all duration-500 transform ${isScrolled ? 'scale-100 opacity-100' : 'scale-95 opacity-80'}`}>
-           <div className="w-12 h-12 bg-kizuna-crimson rounded-full flex items-center justify-center border-2 border-kizuna-gold shadow-lg cursor-pointer">
-              <span className="font-serif text-white text-xl font-bold tracking-wider">K</span>
-           </div>
+           <img src="/logo.png" alt="Kizuna MUN Logo" className="w-16 h-16 object-contain cursor-pointer transition-transform duration-300 hover:scale-105" />
         </div>
 
         {/* Links */}
@@ -230,9 +228,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-16">
           {/* Logo */}
           <div className="flex items-center mb-8 md:mb-0">
-             <div className="w-10 h-10 bg-transparent border-2 border-kizuna-gold rounded-full flex items-center justify-center mr-4">
-                <span className="font-serif text-kizuna-gold text-lg font-bold">K</span>
-             </div>
+             <img src="/logo.png" alt="Kizuna MUN Logo" className="w-16 h-16 object-contain mr-4" />
              <div>
                 <h3 className="font-serif text-xl font-bold text-white tracking-widest">KIZUNA MUN</h3>
                 <p className="font-sans text-xs text-kizuna-gold tracking-widest uppercase mt-1">Model United Nations</p>
